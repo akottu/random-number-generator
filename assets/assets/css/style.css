@@ -1,0 +1,62 @@
+* {
+    font-family: 'Caveat', cursive;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#title {
+    font-family: 'Ranchers', cursive;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+#random-number-generator-title {
+    width: 100%;
+    background: #7cceba;
+    border: #7cceba 5px solid;
+    border-radius: 0px 15px 15px 0px;
+}
+
+#random-restaurant-generator-title {
+    width: 100%;
+    background: #cdb599ff;
+    border: #cdb599ff 5px solid;
+    border-radius: 15px;
+}
+
+#random-list-generator-title {
+    width: 100%;
+    background: #30d5c8;
+    border: #30d5c8 5px solid;
+    border-radius: 15px 0px 0px 15px;
+}
+
+#random-number-generator-input {
+    width: 100%;
+    border: #7cceba 5px solid;
+    border-radius: 0px 15px 15px 0px;
+}
+
+#random-restaurant-generator-input {
+    width: 100%;
+    border: #cdb599ff 5px solid;
+    border-radius: 15px;
+}
+
+#random-list-generator-input {
+    width: 100%;
+    border: #30d5c8 5px solid;
+    border-radius: 15px 0px 0px 15px;
+}
+
+input {
+    width: 100px;
+}
+
+button {
+    width: 100%;
+    font-size: 26px;
+    border-radius: 0px 15px 15px 0px;
+}
