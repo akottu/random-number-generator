@@ -29,6 +29,8 @@ $("#submit-restaurants").click(function() {
 
 $("#submit-list").click(function() {
 
+    $("#list-output").empty();
+
     var list_entries = $('#list-input').val().split('\n');
     shuffle(list_entries);
     for(var i = 0; i < list_entries.length; i++){
