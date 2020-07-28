@@ -20,7 +20,9 @@ $("#submit-numbers").click(function() {
 $("#submit-restaurants").click(function() {
 
     var restaurants = $('#restaurant-input').val().split('\n');
-    var random_number = Math.floor(Math.random() * higher_number);
+    var random_number = Math.floor(Math.random() * restaurants.length);
+    console.log(restaurants[random_number]);
+    console.log(random_number);
     $("#restaurant-output").text(restaurants[random_number].toString());
     
 });
@@ -30,8 +32,8 @@ $("#submit-list").click(function() {
     var list_entries = $('#list-input').val().split('\n');
     shuffle(list_entries);
     for(var i = 0; i < list_entries.length; i++){
-        $("#list-output").append("<br>");
         $("#list-output").append(list_entries[i]);
+        $("#list-output").append("<br>");
     }
 
 });

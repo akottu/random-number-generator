@@ -16,7 +16,7 @@ h2 {
     font-weight: bold;
 }
 
-#random-number-generator-title {
+#random-number-generator-title, #random-number-generator-output {
     width: 100%;
     background: #7cceba;
     border: #7cceba 5px solid;
@@ -27,7 +27,7 @@ h2 {
     border-radius: 0px 15px 15px 0px;
 }
 
-#random-restaurant-generator-title {
+#random-restaurant-generator-title, #random-restaurant-generator-output {
     width: 100%;
     background: #cdb599ff;
     border: #cdb599ff 5px solid;
@@ -40,9 +40,10 @@ h2 {
 
 textarea {
     width: 100%;
+    font-size: 27px;
 }
 
-#random-list-generator-title {
+#random-list-generator-title, #random-list-generator-output {
     width: 100%;
     background: #30d5c8;
     border: #30d5c8 5px solid;
