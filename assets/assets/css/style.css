@@ -8,6 +8,10 @@
     font-family: 'Ranchers', cursive;
 }
 
+.output {
+    font-family: 'Ranchers', cursive;
+}
+
 h2 {
     font-weight: bold;
 }
@@ -19,6 +23,10 @@ h2 {
     border-radius: 0px 15px 15px 0px;
 }
 
+#submit-numbers {
+    border-radius: 0px 15px 15px 0px;
+}
+
 #random-restaurant-generator-title {
     width: 100%;
     background: #cdb599ff;
@@ -26,10 +34,22 @@ h2 {
     border-radius: 15px;
 }
 
+#submit-restaurants {
+    border-radius: 15px;
+}
+
+textarea {
+    width: 100%;
+}
+
 #random-list-generator-title {
     width: 100%;
     background: #30d5c8;
     border: #30d5c8 5px solid;
+    border-radius: 15px 0px 0px 15px;
+}
+
+#submit-list {
     border-radius: 15px 0px 0px 15px;
 }
 
@@ -60,3 +80,4 @@ button {
     font-size: 26px;
     border-radius: 0px 15px 15px 0px;
 }
+
